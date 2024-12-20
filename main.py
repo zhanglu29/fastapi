@@ -95,7 +95,7 @@ def init_model():
     return ChatGroq(model="llama-3.2-90b-vision-preview")
 
 
-# 创建全局变量
+# 创建全局变量 test
 model = init_model()
 prompt = create_intent_prompt()
 
